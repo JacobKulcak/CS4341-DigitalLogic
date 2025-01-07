@@ -1,0 +1,35 @@
+Riviera-PRO 2023.04.112.8911(Linux64) 2024-11-17 15:45:37
+
+Elaboration top modules:
+Architecture                  tb(testbench)
+
+
+----------------------------------------------------------------------------------------
+Entity    | Architecture | Library | Info | Compiler Version      | Compilation Options
+----------------------------------------------------------------------------------------
+testbench | tb           | work    |      | 2023.04.112 (Linux64) |  -2019
+xor4      | synth        | work    |      | 2023.04.112 (Linux64) |  -2019
+----------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------
+VHDL Package             | Library | Info | Compiler Version      | Compilation Options
+----------------------------------------------------------------------------------------
+standard                 | std     |      |                       | <unavailable>
+TEXTIO                   | std     |      | 2023.04.112 (Linux64) |  -2019
+std_logic_1164           | ieee    |      | 2023.04.112 (Linux64) |  -2008
+----------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------
+Library                  | Comment
+----------------------------------------------------------------------------------------
+ieee                     | Standard IEEE packages library
+std                      | Standard VHDL library
+work                     | None
+----------------------------------------------------------------------------------------
+
+
+Simulation Options: asim testbench
+
+License to run VHDL performance optimized simulation unavailable.
+
+The performance of simulation is reduced. Version EDU Edition

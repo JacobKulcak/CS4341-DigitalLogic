@@ -1,0 +1,73 @@
+V 000046 55 683           1731876337236 synth
+(_unit VHDL(xor4 0 5(synth 0 13))
+	(_version vf3)
+	(_time 1731876337237 2024.11.17 15:45:37)
+	(_source(\../design.vhd\))
+	(_parameters tan vhdl2019)
+	(_code b2b5bee6e6e4e4a1b6e0aae8b5b5b0b1b6b5bab4e4)
+	(_ent
+		(_time 1731876337234)
+	)
+	(_object
+		(_type(_int ~STD_LOGIC_VECTOR{3~downto~0}~12 0 7(_array -1((_dto i 3 i 0)))))
+		(_port(_int a 0 0 7(_ent(_in))))
+		(_port(_int y -1 0 8(_ent(_out))))
+		(_prcs
+			(line__15(_arch 0 0 15(_assignment(_trgt(1))(_sens(0(0))(0(1))(0(2))(0(3))))))
+		)
+		(_type(_ext ieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_part (0(0))(0(1))(0(2))(0(3))
+	)
+	(_use(ieee(std_logic_1164))(std(standard)))
+	(_model . synth 1 -1)
+)
+V 000043 55 1210          1731876337242 tb
+(_unit VHDL(testbench 0 4(tb 0 7))
+	(_version vf3)
+	(_time 1731876337243 2024.11.17 15:45:37)
+	(_source(\../testbench.vhd\))
+	(_parameters tan vhdl2019)
+	(_code bcbbbce8eaeaebabbbb9aee6e8bae9babfbab4bbb8)
+	(_ent
+		(_time 1731876337240)
+	)
+	(_comp
+		(xor4
+			(_object
+				(_port(_int a 0 0 11(_ent (_in))))
+				(_port(_int y -1 0 12(_ent (_out))))
+			)
+		)
+	)
+	(_inst DUT 0 21(_comp xor4)
+		(_port
+			((a)(a))
+			((y)(y))
+		)
+		(_use(_ent . xor4)
+		)
+	)
+	(_object
+		(_type(_int ~STD_LOGIC_VECTOR{3~downto~0}~13 0 11(_array -1((_dto i 3 i 0)))))
+		(_type(_int ~STD_LOGIC_VECTOR{3~downto~0}~132 0 17(_array -1((_dto i 3 i 0)))))
+		(_sig(_int a 1 0 17(_arch(_uni(_string \"0000"\)))))
+		(_sig(_int y -1 0 18(_arch(_uni))))
+		(_prcs
+			(line__27(_arch 0 0 27(_prcs(_wait_for)(_trgt(0))(_mon)(_read(1)))))
+		)
+		(_type(_ext ieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard)))
+	(_static
+		(33686018)
+		(1953719636 1176514848 1701603681 100)
+		(50463234)
+		(1953719636 1176515104 1701603681 100)
+		(50528770)
+		(1953719636 1176515360 1701603681 100)
+		(50529026)
+		(1953719636 1176515616 1701603681 100)
+	)
+	(_model . tb 1 -1)
+)
